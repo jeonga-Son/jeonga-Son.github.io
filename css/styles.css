@@ -3325,6 +3325,7 @@ input[type="button"].btn--primary:focus {
 }
 
 .s-header__nav a {
+    font-weight:bold;
     display: block;
     height: var(--header-height);
     line-height: var(--header-height);
@@ -3349,7 +3350,7 @@ input[type="button"].btn--primary:focus {
     font-size: 1.3rem;
     text-transform: uppercase;
     letter-spacing: .4rem;
-    background-color: var(--color-2);
+    background-color: #cfa225;
     color: white;
     width: var(--header-height);
     height: var(--header-height);
@@ -3527,7 +3528,7 @@ input[type="button"].btn--primary:focus {
  *
  * ------------------------------------------------------------------- */
 .s-hero {
-    background-color: var(--color-gray-1);
+    background-color: #F4F4F4;
     width: 100%;
     height: 100vh;
     min-height: calc(25.5 * var(--space));
@@ -3560,7 +3561,7 @@ input[type="button"].btn--primary:focus {
     bottom: 0;
     width: 100%;
     height: 100%;
-    background: white;
+    background-color: #F4F4F4;
     opacity: .5;
 }
 
@@ -3688,7 +3689,7 @@ input[type="button"].btn--primary:focus {
     line-height: var(--vspace-1);
     text-transform: uppercase;
     letter-spacing: .4em;
-    color: white;
+    color: black;
 }
 
 .s-hero__scroll-link:hover .scroll-text::after, 
@@ -3702,8 +3703,9 @@ input[type="button"].btn--primary:focus {
     height: var(--vspace-1);
     margin-right: 1.6rem;
     border-radius: 50%;
-    border: 2px solid white;
+    border: 2px solid black;
     position: relative;
+    color:black;
 }
 
 .s-hero__scroll-link .scroll-arrow svg {
@@ -3717,7 +3719,7 @@ input[type="button"].btn--primary:focus {
 }
 
 .s-hero__scroll-link .scroll-arrow svg path {
-    fill: white;
+    fill: black;
 }
 
 .s-hero__scroll-link .scroll-text {
@@ -3729,7 +3731,7 @@ input[type="button"].btn--primary:focus {
     display: block;
     width: 0;
     height: 1px;
-    background-color: white;
+    background-color: black;
     -webkit-transition: all .3s ease-in-out;
     transition: all .3s ease-in-out;
     position: absolute;
@@ -3910,7 +3912,7 @@ input[type="button"].btn--primary:focus {
 
 .s-about__content-bottom a:hover, 
 .s-about__content-bottom a:focus {
-    color: white;
+    color: #cfa225;
 }
 
 .s-about__content-bottom .btn--download {
@@ -3931,8 +3933,9 @@ input[type="button"].btn--primary:focus {
 
 .s-about__content-bottom .btn--download:hover, 
 .s-about__content-bottom .btn--download:focus {
-    background-color: var(--color-2);
-    border-color: var(--color-2);
+    background-color: #cfa225;
+    border-color: #cfa225;
+    color:white;
 }
 
 .s-about__content-bottom .btn--download:hover svg path, 
@@ -4395,12 +4398,12 @@ input[type="button"].btn--primary:focus {
 .s-testimonials .swiper-pagination-bullet {
     width: 6px;
     height: 6px;
-    background: white;
+    background: black;
     opacity: 0.4;
 }
 
 .s-testimonials .swiper-pagination-bullet-active {
-    background: var(--color-1);
+    background: #cfa225;
     opacity: 1;
 }
 
@@ -4512,7 +4515,7 @@ input[type="button"].btn--primary:focus {
     color: black;
     margin-top: 0;
     font-weight: 400;
-    font-size: 4.6rem;
+    font-size: 3rem;
     line-height: 1.304;
 }
 
@@ -4528,7 +4531,7 @@ input[type="button"].btn--primary:focus {
 }
 
 .contact-block {
-    font-size: 2.8rem;
+    font-size: 2rem;
     font-weight: 400;
     line-height: 1.286;
 }
@@ -4538,7 +4541,7 @@ input[type="button"].btn--primary:focus {
 }
 
 .contact-block a:hover, .contact-block a:focus {
-    color: var(--color-2);
+    color: #cfa225;
 }
 
 .contact-block__header {
@@ -4732,7 +4735,7 @@ input[type="button"].btn--primary:focus {
 
 .ss-go-top a:hover, 
 .ss-go-top a:focus {
-    background-color: var(--color-1);
+    background-color: #cfa225;
 }
 
 .ss-go-top svg {
